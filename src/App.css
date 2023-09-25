@@ -1,0 +1,60 @@
+:root {
+  --white-1: #c0c1c2;
+  --white-2: #7d7d7e;
+  --black-1: #0f121a;
+  --black-2: #24272c;
+  --black-3: #6f7180;
+  --black-4: #1c1f22;
+  --red: #e1392e;
+}
+
+body {
+  background-color: var(--black-2);
+}
+
+.main-app {
+  height: 100%;
+}
+
+.app-content {
+  background-color: inherit;
+  color: var(--white-1);
+}
+
+.app-next-button {
+  background: rgb(141,88,179);
+  background: linear-gradient(93deg, rgba(141,88,179,1) 0%, rgba(101,83,206,1) 99%);
+}
+
+.app-next-button:disabled {
+  background: var(--black-4);
+  color: var(--white-2);
+}
+
+.app-text {
+  background-color: var(--black-1);
+  color: var(--white-2);
+}
+
+.show-example-button {
+  color: var(--black-3);
+  cursor: pointer;
+}
+
+.app-error {
+  border: 1px solid var(--red);
+  border-radius: 6px;
+  color: var(--red);
+}
+
+.duplicated-button {
+  color: var(--red);
+}
+
+.duplicated-button span:nth-child(2) {
+  margin: 0 20px;
+}
+
+.duplicated-button span:not(:nth-child(2)) {
+  cursor: pointer;
+}
