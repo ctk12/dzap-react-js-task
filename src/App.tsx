@@ -146,7 +146,7 @@ function App() {
   return (
     <div className="main-app flex justify-center">
       <div className="app-content w-full h-full max-[1024px]:px-2 px-14 py-6">
-        <div className="bg-transparent h-max w-full flex flex-col justify-center items-center text-white gap-6">
+        <div className="bg-transparent h-max w-full flex flex-col justify-center items-center text-white gap-6 max-w-screen-xl mx-auto">
          <div className="w-full flex flex-col items-center justify-center gap-2">
          <div className="w-full flex justify-between items-center">
             <div>Addresses with Amounts</div>
